@@ -1,4 +1,5 @@
-import 'package:blog_application/Screens/dashboard.dart';
+
+import 'package:blog_application/Screens/HomeScreen/Dashboard_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';

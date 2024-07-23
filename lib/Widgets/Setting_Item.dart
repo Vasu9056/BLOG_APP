@@ -1,4 +1,5 @@
-import 'package:blog_application/components/forward_button.dart';
+
+import 'package:blog_application/widgets/Forward_Button.dart';
 import 'package:flutter/material.dart';
 
 class SettingItem extends StatelessWidget {

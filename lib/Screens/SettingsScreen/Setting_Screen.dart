@@ -1,9 +1,9 @@
 // import 'package:blog_app/Screens/_DashboardState.dart';
-import 'package:blog_application/Screens/Dashboard.dart';
-import 'package:blog_application/Screens/profile_screen.dart';
-import 'package:blog_application/components/forward_button.dart';
-import 'package:blog_application/components/setting_item.dart';
-import 'package:blog_application/components/setting_switch.dart';
+import 'package:blog_application/Screens/HomeScreen/Dashboard_Screen.dart';
+import 'package:blog_application/Screens/ProfileScreens/Profile_Screen.dart';
+import 'package:blog_application/widgets/Forward_Button.dart';
+import 'package:blog_application/widgets/Setting_Item.dart';
+import 'package:blog_application/widgets/Setting_Switch.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 

@@ -1,4 +1,4 @@
-import 'package:blog_application/Screens/setting_screen.dart';
+import 'package:blog_application/Screens/SettingsScreen/Setting_Screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-import '../theme/theme_provider.dart';
+import '../ThemeScreen/ThemeProvider_Screen.dart';
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});

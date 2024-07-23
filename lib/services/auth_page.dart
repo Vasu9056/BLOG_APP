@@ -1,5 +1,5 @@
-import 'package:blog_application/Screens/dashboard.dart';
-import 'package:blog_application/Screens/login.dart';
+import 'package:blog_application/Screens/HomeScreen/Dashboard_Screen.dart';
+import 'package:blog_application/Screens/LoginScreens/Login_Screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

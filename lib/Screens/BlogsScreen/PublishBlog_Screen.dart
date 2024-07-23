@@ -6,7 +6,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:smart_snackbars/smart_snackbars.dart';
 import 'package:uuid/uuid.dart';
 import 'dart:io';
-import '../components/buttons.dart';
+import '../../Widgets/Buttons.dart';
 
 class PublishBlog extends StatefulWidget {
   const PublishBlog({super.key});

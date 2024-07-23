@@ -1,3 +1,4 @@
+import 'package:blog_application/ThemeScreen/ThemeProvider_Screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -5,7 +6,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 import 'dart:io';
-import '../theme/theme_provider.dart';
 
 class EditAccountScreen extends StatefulWidget {
   const EditAccountScreen({super.key});

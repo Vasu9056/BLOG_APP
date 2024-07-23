@@ -1,4 +1,6 @@
-import 'package:blog_application/Screens/search_screen.dart';
+import 'package:blog_application/Screens/SearchScreen/Search_Screen.dart';
+import 'package:blog_application/Widgets/Custom_Drawer.dart';
+import 'package:blog_application/Widgets/BlogPost.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -7,9 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:provider/provider.dart';
-import '../components/CustomDrawer.dart';
-import '../components/BlogPost.dart';
-import '../theme/theme_provider.dart';
+import '../../ThemeScreen/ThemeProvider_Screen.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});

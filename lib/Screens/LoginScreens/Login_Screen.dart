@@ -1,6 +1,6 @@
-import 'package:blog_application/Screens/ResetPassword.dart';
-import 'package:blog_application/Screens/mobileLogin.dart';
-import 'package:blog_application/services/google_auth.dart';
+import 'package:blog_application/Screens/LoginScreens/ResetPassword_Screen.dart';
+import 'package:blog_application/Screens/LoginScreens/Otp_login_Screen.dart';
+import 'package:blog_application/Services/google_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';

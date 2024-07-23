@@ -1,4 +1,4 @@
-import 'package:blog_application/Screens/otpverify.dart';
+import 'package:blog_application/Screens/LoginScreens/OtpVerify_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -10,7 +10,6 @@ class ForgotPasswordScreen extends StatefulWidget {
 class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
   final TextEditingController _phoneController = TextEditingController();
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  String _verificationId = '';
 
   @override
   Widget build(BuildContext context) {
@@ -100,7 +99,6 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
       },
       codeSent: (String verificationId, int? resendToken) {
         setState(() {
-          _verificationId = verificationId;
         });
 
         Navigator.push(
@@ -114,7 +112,6 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
       },
       codeAutoRetrievalTimeout: (String verificationId) {
         setState(() {
-          _verificationId = verificationId;
         });
       },
     );
